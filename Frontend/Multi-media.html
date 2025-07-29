@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MULTI-MEDIA</title>
+</head>
+<body>
+
+  <h2>Video Player</h2>
+  <video width="320" height="240" controls poster="12.jpeg">
+    <source src="art.mp4" type="video/mp4">
+    <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+    Your browser does not support the video tag.
+  </video>
+
+  <h2>Audio Player</h2>
+  <audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+    <embed src="file_example_OOG_1MG.ogg" type="audio/ogg">
+    <object data="file_example_OOG_1MG.ogg" type="audio/ogg">
+      Your browser does not support the audio tag.
+    </object>
+  </audio>
+
+  <h2>Google Maps</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.123456789012!2d-122.419415684681!3d37.774929279759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c8b8b8b8b%3A0x8b8b8b8b8b8b8b8b!2sSan%20Francisco%2C%20CA%2094105%2C%20USA!5e0!3m2!1sen!2sin!4v1616161616161" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+  <h2>Embed and Object Tag (PDF Viewers)</h2>
+  <embed src="sample.pdf" type="application/pdf" width="600" height="400">
+  <br>
+  <object data="sample2.pdf" type="application/pdf" width="600" height="400">
+    PDF cannot be displayed. <a href="sample.pdf" target="_blank">Download PDF</a>
+  </object>
+
+  <h2>Image Gallery</h2>
+  <!-- You can add images here -->
+  <img src="12.jpeg" alt="Image 1" width="200">
+  <img src="p1.avif" alt="Image 2" width="200">
+  <!-- <img src="image3.jpg" alt="Image 3" width="200"> -->
+<h2>Video Player</h2>
+<figure>
+  <video width="320" height="240" controls poster="12.jpeg">
+    <source src="art.mp4" type="video/mp4">
+    <track src="doiwannaknow.vtt" kind="subtitles" srclang="en" label="English" default>
+    Your browser does not support the video tag.
+  </video>
+  <figcaption>Do I Wanna Know – Arctic Monkeys (With Subtitles)</figcaption>
+</figure>
+
+
+</body>
+</html>
